@@ -7,6 +7,9 @@ fun main() {
     println(player.name)
     player.castFireball()
 
+    var currentRoom = TownSquare()
+    println(currentRoom.description())
+    println(currentRoom.load())
     printPlayerStatus(player)
 }
 
